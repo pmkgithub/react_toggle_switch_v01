@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import ToggleSwitch from './toggle_switch';
+import ToggleSliderComponent from './toggle_switch';
 
 const AppWrapper = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export default class App extends Component {
     return (
       <AppWrapper>
         <Container>
-          <ToggleSwitch />
+          <ToggleSliderComponent />
         </Container>
       </AppWrapper>
     )
